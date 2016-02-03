@@ -23,7 +23,7 @@
         <td>
             <props:textProperty name="${bean.repoNameKey}" />
             <span class="error" id="error_${bean.repoNameKey}"></span>
-            <span class="smallnote">The Cocoapods repository name.</span>
+            <span class="smallNote">The Cocoapods repository name.</span>
         </td>
     </tr>
 </l:settingsGroup>

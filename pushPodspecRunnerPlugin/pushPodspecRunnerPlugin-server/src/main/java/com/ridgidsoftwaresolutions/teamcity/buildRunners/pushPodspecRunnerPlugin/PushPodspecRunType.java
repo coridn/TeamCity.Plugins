@@ -93,4 +93,15 @@ public class PushPodspecRunType extends RunType {
         //Need to eventually check that cocoapods is installed.
         return requirements;
     }
+
+    @NotNull
+    @Override
+    public String describeParameters(@NotNull Map<String, String> parameters) {
+        StringBuilder builder = new StringBuilder();
+
+        builder.append("Podspec: ").append(parameters.get(PluginConstants.PODSPEC_PATH_KEY)).append('\n');
+        builder.append("Repo Name: ").append(parameters.get(PluginConstants.REPO_NAME_KEY)).append('\n');
+
+        return builder.toString();
+    }
 }
