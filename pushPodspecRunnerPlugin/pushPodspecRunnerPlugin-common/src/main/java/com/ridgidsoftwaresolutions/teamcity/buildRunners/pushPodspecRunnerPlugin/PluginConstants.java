@@ -7,4 +7,8 @@ public interface PluginConstants {
 
     String PODSPEC_PATH_KEY = "pushPodspecPath";
     String REPO_NAME_KEY = "repoName";
+    String ALLOW_WARNINGS_KEY = "allowWarnings";
+    String SOURCES_KEY = "sources";
+    String USE_LIBRARIES_KEY = "useLibraries";
+    String ADDITIONAL_COMMAND_LINE_ARGS_KEY = "additionalCommandLineArgs";
 }
