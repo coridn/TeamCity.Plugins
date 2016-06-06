@@ -34,7 +34,12 @@ public class PushPodspecCommandLineBuildServiceFactory implements CommandLineBui
                 }
 
                 //Check if CocoaPods is installed.
-                //We have to check two places depending on system version.  El Capital has CocoaPods in /usr/local/bin
+                //We have to check two places depending on system version.
+                //El Capitan has CocoaPods in /usr/local/bin if installed with sudo.
+                //Prior to El Capitan, it was in /usr/bin
+                //If they're using RVM or something else, then it's in one of those folders.
+
+                
 
 
                 return true;

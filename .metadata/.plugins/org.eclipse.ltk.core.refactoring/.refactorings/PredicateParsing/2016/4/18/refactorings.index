@@ -1,0 +1,21 @@
+1461599193328	Move compilation unit
+1461599194758	Move compilation unit
+1461606398068	Delete element
+1461612220682	Delete element
+1461612844858	Delete element
+1461678425762	Delete element
+1461684025330	Delete element
+1461690478091	Delete element
+1461760794323	Rename type 'LogicalOperator'
+1461781205736	Rename method 'handleLogicalOperator'
+1461865798222	Rename type 'Expression'
+1461866811740	Delete element
+1461869804840	Delete element
+1461874823591	Rename field 'additionalKeyPaths'
+1461874835701	Rename local variable 'additionalKeyPaths'
+1461874842767	Rename local variable 'additionalParameter'
+1461934943556	Rename local variable 'initialKeyPath'
+1461935502279	Rename local variable 'initialKeyPath'
+1461935509062	Rename field 'initialKeyPath'
+1461935637656	Rename local variable 'additionalKeyPaths'
+1461935834437	Rename local variable 'string'

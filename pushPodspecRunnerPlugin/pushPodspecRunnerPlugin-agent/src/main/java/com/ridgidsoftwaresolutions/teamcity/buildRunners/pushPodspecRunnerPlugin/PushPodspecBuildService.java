@@ -46,6 +46,6 @@ public class PushPodspecBuildService extends BuildServiceAdapter {
             arguments.add(additionalArgs);
         }
 
-        return createProgramCommandline("pod", arguments);
+        return createProgramCommandline("/Users/coridn/.rvm/gems/ruby-2.0.0-p643/bin/pod", arguments);
     }
 }
